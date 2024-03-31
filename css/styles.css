@@ -100,7 +100,7 @@ body {
 
 .site-logo-text {
     font-size: 24px;
-    font-weight: 600;   
+    font-weight: 600;
 }
 
 .site-logo:hover {
@@ -136,9 +136,11 @@ body {
 .sitenav-site-footer .sitenav-link {
     color: #fff;
 }
+
 .sitenav-site-footer .sitenav-link:hover {
     color: #de2e54;
 }
+
 .sitenav-site-footer .sitenav-link:active {
     color: #fff;
     opacity: 0.6;
@@ -174,7 +176,8 @@ body {
 
 .main-link {
     display: inline-block;
-    font-family: 'Open Sans Condensed', 'Arial', sans-serif; 
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', 'Arial', sans-serif;
     letter-spacing: 2px;
     font-size: 15px;
     line-height: 1.5;
@@ -191,12 +194,60 @@ body {
     background-color: transparent;
     color: #de2e54;
 }
+
 .main-link:active {
     background-color: #de2e54;
     color: #fff;
     opacity: 0.6;
 }
 
+.main-link-solid:hover {
+    background-color: rgba(222, 46, 84, 80%);
+    color: #fff;
+    border-color: transparent;
+}
+.main-link-solid:active {
+    background-color: rgba(222, 46, 84, 60%);
+    opacity: 1;
+}
+
+/* HERO */
+
+.hero {
+    background-color: #0eb4c1;
+    color: #fff;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-content {
+    padding: 120px 0;
+    width: 500px;
+}
+
+.hero-heading {
+    margin-top: 0;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.hero-text {
+    width: 440px;
+    margin-top: 0;
+    margin-bottom: 36px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+.hero-img {
+    align-self: flex-end;
+}
 
 /* SITE FOOTER */
 
@@ -205,9 +256,9 @@ body {
     background-color: #222;
     color: #fff;
 }
+
 .site-footer-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
