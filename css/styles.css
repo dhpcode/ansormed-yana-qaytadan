@@ -206,6 +206,7 @@ body {
     color: #fff;
     border-color: transparent;
 }
+
 .main-link-solid:active {
     background-color: rgba(222, 46, 84, 60%);
     opacity: 1;
@@ -247,6 +248,74 @@ body {
 
 .hero-img {
     align-self: flex-end;
+}
+
+
+/* INDEX-SERVICES */
+
+.index-services {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.index-services-heading {
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    color: #000;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 56px;
+    text-align: center;
+}
+
+.index-services-list {
+    width: 864px;
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-services-item:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.index-service {
+    display: flex;
+    align-items: center;
+}
+
+.index-service-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 64px;
+    box-shadow: 0 12px 24px -8px rgba(0, 107, 116, 0.3);
+    border-radius: 24px;
+}
+
+.index-service-content {
+    line-height: 1.5;
+}
+
+.index-service-title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #222;
+}
+
+.index-service-description {
+    margin: 0;
+}
+
+.index-services-action {
+    display: flex;
+    justify-content: center;
 }
 
 /* SITE FOOTER */
